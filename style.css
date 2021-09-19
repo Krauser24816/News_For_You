@@ -1,0 +1,60 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation bar */
+#navbar{
+    display: flex;
+    position: relative;
+} 
+
+/* Navigation bar: Logo and Image */ 
+#logo{
+    margin: 29px -28px;
+}
+
+#logo img{
+    margin: -31px 37px;
+    height: 75px;
+    width: 75px;
+}
+
+/* Navigation bar: List Styling */ 
+#navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(8, 3, 73);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: rgb(219, 226, 241);
+    display: block;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: blue;
+    background-color: rgb(238, 163, 163);
+    cursor: pointer;
+}

@@ -34,6 +34,7 @@
 #navbar::before{
     content: "";
     background-color: rgb(8, 3, 73);
+    background-image: linear-gradient(to bottom right, rgb(8, 3, 73), rgb(79, 68, 224));
     position: absolute;
     height: 100%;
     width: 100%;

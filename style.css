@@ -12,7 +12,10 @@
 /* Navigation bar */
 #navbar{
     display: flex;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 } 
 
 /* Navigation bar: Logo and Image */ 
@@ -62,10 +65,22 @@
 
 /* Section news */
  
- .personsInside{
-     display: flex;
- }
- /* .personsInside.JeffBezos{
-     
-     
- } */
+#newsAccToPerson{
+    margin-top: 80px
+}
+#newsAccToPerson ul{
+    display: flex;
+}
+
+#newsAccToPerson ul li{
+    background-color: rgb(8, 3, 73);;
+    margin-left: 5px;
+    list-style: none;
+    padding: 72px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 5px solid;
+    color: white;
+    /* Background image and its opacity */
+}

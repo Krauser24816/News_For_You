@@ -72,15 +72,35 @@
     display: flex;
 }
 
-#newsAccToPerson ul li{
-    background-color: rgb(8, 3, 73);;
-    margin-left: 5px;
+#newsAccToPerson ul.icons li{
+    background-color: rgb(8, 3, 73);
+    margin-left: 7px;
     list-style: none;
     padding: 72px;
     height: 8px;
     width: 8px;
     border-radius: 50%;
-    border: 5px solid;
+    border: 5px solid black;
     color: white;
     /* Background image and its opacity */
 }
+
+#newsAccToPerson ul.icons li.google{
+    background: url("img/google_128.png") no-repeat center;
+}
+
+#newsAccToPerson ul.icons li.cred{
+    background: url("img/cred_160.png") no-repeat center;
+}
+
+#newsAccToPerson ul.icons li.adobe{
+    background: url("img/adobe.png") no-repeat center;
+}
+
+#newsAccToPerson ul.icons li.zomato{
+    background: url("img/zomato.jpg") no-repeat center;
+}
+
+/* #newsAccToPerson sabar_karo{
+    background: url("img/hindustani-bhau-ruko-zara.gif");
+} */

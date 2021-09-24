@@ -66,7 +66,11 @@
 /* Section news */
  
 #newsAccToPerson{
-    margin-top: 80px
+    margin-top: 80px;
+}
+
+#newsAccToPerson h2{
+    color: rgb(8, 3, 73);
 }
 #newsAccToPerson ul{
     display: flex;
@@ -80,7 +84,7 @@
     height: 8px;
     width: 8px;
     border-radius: 50%;
-    border: 5px solid black;
+    border: 5px solid rgb(43, 30, 228);
     color: white;
     /* Background image and its opacity */
 }
@@ -98,9 +102,29 @@
 }
 
 #newsAccToPerson ul.icons li.zomato{
-    background: url("img/zomato.jpg") no-repeat center;
+    background: url("img/zomato_170.jpg") no-repeat center;
 }
 
-/* #newsAccToPerson sabar_karo{
-    background: url("img/hindustani-bhau-ruko-zara.gif");
-} */
+#newsAccToPerson ul.icons li.swiggy{
+    background: url("img/swiggy_128.png") no-repeat center;
+}
+
+#newsAccToPerson ul.icons li.hotstar{
+    background: url("img/hotstar_240_190.jpg") no-repeat center;
+}
+
+#newsAccToPerson ul.icons li.netflix{
+    background: url("img/netflix_160.png") no-repeat center;
+}
+
+#newsAccToPerson ul.icons li.facebook{
+    background: url("img/facebook_183.png") no-repeat center;
+}
+
+#newsAccToPerson ul.icons li.microsoft{
+    background: url("img/microsoft_180.png") no-repeat center;
+}
+
+#newsAccToPerson ul.icons li.linkedin{
+    background: url("img/linkedin_135.png") no-repeat center;
+}

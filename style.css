@@ -76,7 +76,7 @@
     display: flex;
 }
 
-#newsAccToPerson ul.icons li{
+#newsAccToPerson ul.icons li {
     background-color: rgb(8, 3, 73);
     margin-left: 7px;
     list-style: none;
@@ -87,6 +87,10 @@
     border: 5px solid rgb(43, 30, 228);
     color: white;
     /* Background image and its opacity */
+}
+
+#newsAccToPerson ul.icons li.google{
+    background: url("img/google_128.png") no-repeat center;
 }
 
 #newsAccToPerson ul.icons li.google{

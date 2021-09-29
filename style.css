@@ -89,6 +89,8 @@
     /* Background image and its opacity */
 }
 
+
+
 #newsAccToPerson ul.icons li.google{
     background: url("img/google_128.png") no-repeat center;
 }
@@ -131,4 +133,45 @@
 
 #newsAccToPerson ul.icons li.linkedin{
     background: url("img/linkedin_135.png") no-repeat center;
+}
+
+
+#newspapers{
+    margin-top: 40px;
+}
+
+#newspapers h2{
+    color: rgb(8, 3, 73);
+}
+#newspapers ul{
+    display: flex;
+}
+
+#newspapers ul.icons li {
+    background-color: rgb(8, 3, 73);
+    margin-left: 7px;
+    list-style: none;
+    padding: 72px;
+    height: 8px;
+    width: 8px;
+    border-radius: 20%;
+    border: 5px solid rgb(7, 134, 219);
+    color: white;
+    /* Background image and its opacity */
+}
+
+#newspapers ul.icons li.theHindu{
+    background: url("img1/theHindu_150.jpg") no-repeat center;
+}
+
+#newspapers ul.icons li.timesOfIndia{
+    background: url("img1/timesOfIndia_160_150.jpg") no-repeat center;
+}
+
+#newspapers ul.icons li.hindustanTimes{
+    background: url("img1/hindustanTimes_165_150.png") no-repeat center;
+}
+
+#newspapers ul.icons li.theEconomicsTimes{
+    background: url("img1/theEconomicTimes_140.png") no-repeat center;
 }

@@ -175,3 +175,15 @@
 #newspapers ul.icons li.theEconomicsTimes{
     background: url("img1/theEconomicTimes_140.png") no-repeat center;
 }
+
+#newspapers ul.icons li.delhiTimes{
+    background: url("img1/delhiTimes_145_160.jpg") no-repeat center;
+}
+
+#newspapers ul.icons li.ndtv{
+    background: url("img1/ndtv_155.png") no-repeat center;
+}
+
+#newspapers ul.icons li.businessStandard{
+    background: url("img1/businessStandard_150.png") no-repeat center;
+}

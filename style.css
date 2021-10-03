@@ -187,3 +187,7 @@
 #newspapers ul.icons li.businessStandard{
     background: url("img1/businessStandard_150.png") no-repeat center;
 }
+
+#newspapers ul.icons li.news18{
+    background: url("img1/news18_150.png") no-repeat center;
+}

@@ -191,3 +191,11 @@
 #newspapers ul.icons li.news18{
     background: url("img1/news18_150.png") no-repeat center;
 }
+
+#newspapers ul.icons li.wion{
+    background: url("img1/wion.jpg") no-repeat center;
+}
+
+#newspapers ul.icons li.theGuardian{
+    background: url("img1/theGuardian_160.png") no-repeat center;
+}
